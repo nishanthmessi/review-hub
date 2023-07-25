@@ -6,7 +6,7 @@ const AboutSection = () => {
       <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-20'>
         About the Brand
       </h1>
-      <div className='flex flex-col gap-20 sm:w-[60vw]'>
+      <div className='flex flex-col gap-20 lg:w-[60vw]'>
         <div className='flex flex-col sm:flex-row justify-center items-center gap-10'>
           <img
             src='https://aersf.com/cdn/shop/files/2023_aer_banner_2500_story_STORY_880x.jpg?v=1686607091'

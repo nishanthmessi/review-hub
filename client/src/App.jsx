@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import NewsletterSection from './components/NewsletterSection'
 import ProductDetails from './components/ProductDetails'
+import ProductGallery from './components/ProductGallery'
 import YoutubeSection from './components/YoutubeSection'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductDetails />
+      <ProductGallery />
       <YoutubeSection />
       <AboutSection />
       <BrandSection />

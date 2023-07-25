@@ -12,7 +12,7 @@ const YoutubeSection = () => {
             src='https://www.youtube.com/embed/CLaPzDWalAg'
             frameborder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className='pt-6'>

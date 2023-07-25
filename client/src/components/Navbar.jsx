@@ -7,9 +7,9 @@ const Navbar = () => {
     <div className='sticky top-0 z-10 backdrop-blur-md backdrop-saturate-125 bg-white/40 flex justify-between items-center px-4 md:px-10 py-4'>
       <div className='hidden md:block'>
         <ul className='flex gap-10'>
-          <li>Categories</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li className='cursor-pointer'>Categories</li>
+          <li className='cursor-pointer'>About</li>
+          <li className='cursor-pointer'>Contact</li>
         </ul>
       </div>
       <div>

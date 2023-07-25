@@ -3,9 +3,9 @@ import StarFillIcon from 'remixicon-react/StarFillIcon'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col-reverse sm:flex-row justify-evenly items-center md:pt-8'>
-      <div className='flex flex-col sm:justify-center items-center gap-6 h-auto sm:h-[70vh] w-full sm:w-[50vw] mt-10 sm:mt-0 px-2'>
-        <h1 className='text-5xl sm:text-8xl text-center font-semibold'>
+    <div className='flex flex-col-reverse lg:flex-row justify-evenly items-center md:pt-8'>
+      <div className='flex flex-col sm:justify-center items-center gap-6 h-auto lg:h-[70vh] w-full lg:w-[50vw] mt-10 lg:mt-0 px-2'>
+        <h1 className='text-5xl sm:text-6xl lg:text-8xl text-center font-semibold'>
           Aer City Sling 2
         </h1>
         <p className='text-xl text-center sm:text-2xl'>
@@ -22,11 +22,11 @@ const Hero = () => {
           Buy Now! <ArrowRightUpLineIcon />
         </a>
       </div>
-      <div className='w-full sm:w-[50vw]'>
+      <div className='w-full lg:w-[50vw]'>
         <img
           src='https://cld.accentuate.io/6596585914464/1684307806054/AER21031_citysling2_lifestyle_3.jpeg?v=1684307806055&options=w_1512'
           alt=''
-          className='object-cover h-[58vh] sm:h-auto'
+          className='object-cover h-[58vh] w-full lg:h-auto'
         />
       </div>
     </div>

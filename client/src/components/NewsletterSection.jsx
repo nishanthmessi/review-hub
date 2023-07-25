@@ -11,7 +11,7 @@ const NewsletterSection = () => {
         <input
           type='email'
           placeholder='your email'
-          className='px-2 py-3 w-[80%] md:w-[20%] outline outline-1'
+          className='px-2 py-3 w-[80%] md:w-[30%] lg:w-[20%] outline outline-1'
         />
         <button className='bg-slate-900 text-white px-4'>
           <ArrowRightSLineIcon />
