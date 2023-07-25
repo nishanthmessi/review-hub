@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSection = () => {
   return (
-    <div className='flex flex-col justify-center items-center px-10'>
+    <div className='flex flex-col justify-center items-center px-10 pb-10'>
       <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-20'>
         About the Brand
       </h1>

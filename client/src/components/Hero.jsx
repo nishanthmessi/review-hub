@@ -10,8 +10,8 @@ const Hero = () => {
         <p className='text-xl text-center sm:text-2xl'>
           The everyday sling bag designed for the city.
         </p>
-        <button className='flex bg-slate-900 shadow-lg hover:shadow-gray-400 transition duration-700 ease-in-out rounded-lg text-white p-2'>
-          Visit Offical Site. <ArrowRightUpLineIcon />
+        <button className='flex bg-slate-900 shadow-lg hover:shadow-gray-400 transition duration-700 ease-in-out rounded-lg text-white p-2 gap-2'>
+          Buy Now! <ArrowRightUpLineIcon />
         </button>
       </div>
       <div className='w-full sm:w-[50vw]'>
