@@ -1,3 +1,4 @@
+import AboutSection from './components/AboutSection'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import ProductDetails from './components/ProductDetails'
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <ProductDetails />
       <YoutubeSection />
+      <AboutSection />
     </div>
   )
 }

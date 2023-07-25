@@ -2,8 +2,8 @@ import React from 'react'
 
 const YoutubeSection = () => {
   return (
-    <div className='grid justify-center px-10 mt-10 border-t-2 bg-gray-100'>
-      <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-10'>
+    <div className='grid justify-center px-10 mt-10 pb-10 bg-gray-100'>
+      <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-20'>
         What Experts Say...
       </h1>
       <div>

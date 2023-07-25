@@ -3,7 +3,7 @@ import React from 'react'
 const ProductDetails = () => {
   return (
     <div className='mt-10 border-t-2'>
-      <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-10'>
+      <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-20'>
         Product Hightlights
       </h1>
       <div className='flex flex-col sm:flex-row px-10'>
