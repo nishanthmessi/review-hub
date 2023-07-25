@@ -3,11 +3,11 @@ import React from 'react'
 const ProductDetails = () => {
   return (
     <div className='mt-10 border-t-2'>
-      <h1 className='text-3xl font-semibold subHeading text-center py-10'>
+      <h1 className='text-2xl sm:text-3xl font-semibold subHeading text-center py-10'>
         Product Hightlights
       </h1>
-      <div className='flex px-10'>
-        <div className='grid grid-cols-2 w-[50vw] gap-2'>
+      <div className='flex flex-col sm:flex-row px-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 w-full sm:w-[50vw] gap-2'>
           <div>
             <img
               src='https://cld.accentuate.io/39444979843168/1647147715869/AER21031_citysling2_black_zipperpull.jpg?v=0&options=w_540'
@@ -33,7 +33,7 @@ const ProductDetails = () => {
             />
           </div>
         </div>
-        <div className='w-[50vw] flex flex-col justify-center items-start p-10 gap-10'>
+        <div className='w-full sm:w-[50vw] flex flex-col justify-center items-start mt-8 sm:mt-0 sm:p-10 gap-10'>
           <div className='text-start'>
             <p className='text-lg'>
               The City Sling 2 is the essential, everyday sling bag designed for
