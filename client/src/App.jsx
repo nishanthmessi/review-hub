@@ -1,5 +1,6 @@
 import AboutSection from './components/AboutSection'
-import BuySection from './components/BuySection'
+import BrandSection from './components/BrandSection'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import NewsletterSection from './components/NewsletterSection'
@@ -14,8 +15,9 @@ function App() {
       <ProductDetails />
       <YoutubeSection />
       <AboutSection />
-      <BuySection />
+      <BrandSection />
       <NewsletterSection />
+      <Footer />
     </div>
   )
 }

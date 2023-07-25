@@ -17,7 +17,7 @@ const YoutubeSection = () => {
         </div>
         <div className='pt-6'>
           <h1 className='text-xl italic text-center sm:text-end'>
-            "Packer Hacker Tom's favourite sling"
+            "Pack Hacker Tom's favourite sling"
           </h1>
         </div>
       </div>
